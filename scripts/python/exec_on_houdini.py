@@ -1,5 +1,4 @@
 import hou
-import os
 
 # hip読み込み
 root_directory = hou.text.expandString("$HIP")  # シーンを開く前はパス変数$HIPでlaunch.batのパスを取得します
